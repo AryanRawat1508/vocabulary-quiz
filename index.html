@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Vocabulary Study Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Ultimate Vocabulary Study Tool</h1>
+        <p class="subtitle">100 Questions to Master Your Knowledge</p>
+        
+        <div id="quiz-filters">
+            <button class="filter-btn active" data-category="All">All Questions</button>
+            <button class="filter-btn" data-category="Root Words">Root Words</button>
+            <button class="filter-btn" data-category="Foreign Phrases">Foreign Phrases</button>
+            <button class="filter-btn" data-category="Idioms">Idioms</button>
+            <button class="filter-btn" data-category="Synonyms & Antonyms">Synonyms & Antonyms</button>
+        </div>
+
+        <div class="quiz-container">
+            <form id="quiz-form">
+                </form>
+        </div>
+        
+        <div id="pagination-controls">
+            </div>
+
+        <div id="submission-area">
+            <button id="submit-btn">Submit and See Score</button>
+            <div id="results" class="results-container"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
